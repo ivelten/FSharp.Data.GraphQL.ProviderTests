@@ -1,9 +1,11 @@
 # Needs to change this to your local NuGet server
 # Currently using https://github.com/NuGet/NuGet.Server
-source http://192.168.56.1/NuGet/
+source http://192.168.56.1/NuGet/nuget
 
 # Keep original NuGet server for other packages
-source https://www.nuget.org/api/v2
+source https://api.nuget.org/v3/index.json
+
+frameworks: net461, netcoreapp2.1
 
 nuget FSharp.Core
-nuget FSharp.Data.GraphQL.Client
+nuget FSharp.Data.GraphQL.Client 0.0.19-beta

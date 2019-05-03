@@ -1,6 +1,6 @@
 # FSharp.Data.GraphQL.ProviderTests
 
-This repository was created to test package installation of FSharp.Data.GraphQL packages on Windows, Linux and OSX.
+This repository was created to test package installation of FSharp.Data.GraphQL.Client package on Windows, Linux and OSX.
 
 Since TP provider installation is somewhat complicated to test, this repository was built to help testing it.
 

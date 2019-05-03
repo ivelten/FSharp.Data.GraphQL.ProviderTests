@@ -1,0 +1,9 @@
+# Needs to change this to your local NuGet server
+# Currently using https://github.com/NuGet/NuGet.Server
+source http://192.168.56.1/NuGet/
+
+# Keep original NuGet server for other packages
+source https://www.nuget.org/api/v2
+
+nuget FSharp.Core
+nuget FSharp.Data.GraphQL.Client

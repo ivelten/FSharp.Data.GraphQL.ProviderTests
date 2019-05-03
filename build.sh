@@ -1,0 +1,1 @@
+export FrameworkPathOverride=/usr/lib/mono/4.6.1-api/ && dotnet build
